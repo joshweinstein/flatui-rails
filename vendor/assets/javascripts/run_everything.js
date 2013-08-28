@@ -2,8 +2,8 @@
 
 $(function () {
     // Custom selects
-    if($("select").length > 0) {
-        $("select").dropkick();    
+    if($("select.dropkick").length > 0) {
+        $("select.dropkick").dropkick();    
     }
 });
 
